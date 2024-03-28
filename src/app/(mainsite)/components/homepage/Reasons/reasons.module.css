@@ -97,12 +97,23 @@
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
     .reasonsWrapper{
+        margin-top: 10vw;
         gap: 4vw;
     }
+    .reasons::after{
+        width: 14vw;
+        height: 12vw;
+   
+   }
+   
+   .reasons::before{
+    width: 14vw;
+    height: 12vw;
+   }
     
     .reasonsItem{
-        width: 24%;
-        padding: 3%;
+        width: 28%;
+        padding: 2%;
     }
     
     .reasonsItem svg{

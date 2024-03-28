@@ -174,7 +174,7 @@
 .cta span{
     font-weight: 600;
     color: var(--secondary-text-color);
-    padding: 0.2vw 2vw;
+    padding: 0.2vw 2vw !important;
 }
 
 /* MEDIUM LAPTOP STYLES */
@@ -380,7 +380,7 @@
     
     .links a.cta{
         background-color: var(--primary-color);
-        padding: 1vw 2vw;
+        padding: 1vw 2vw !important;
         border-radius: 999px;
         transition: filter 0.3s;
         display: inline-flex;

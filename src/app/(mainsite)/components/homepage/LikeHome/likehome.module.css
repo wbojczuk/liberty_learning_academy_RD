@@ -24,10 +24,16 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .likeHome p{
+        padding: 3vw 18%;
+        font-size: 1.6rem;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .likeHome p{
+        padding: 5vw 10%;
+        font-size: 1.8rem;
+    }
 }
