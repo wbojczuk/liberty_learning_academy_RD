@@ -1,0 +1,117 @@
+.reasons{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.reasons h2{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.reasonsWrapper{
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+.reasons::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: 0;
+     right: 0;
+     background-color: var(--primary-color);
+     width: 8vw;
+     height: 7vw;
+     clip-path: polygon(0 0, 100% 100%, 100% 0);
+
+}
+
+.reasons::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    width: 8vw;
+    height: 7vw;
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+
+.reasonsItem{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    padding: 2%;
+}
+
+.reasonsItem svg{
+    color: var(--primary-color);
+    margin-bottom: 1vw;
+    width: 4vw;
+    height:  4vw;
+}
+
+/* .reasonsItem:not(.reasonsItem:nth-child(3)) svg path{
+    fill: var(--primary-color)
+}
+.reasonsItem:nth-child(3) svg path:nth-child(1){
+    fill: var(--primary-color)
+} */
+
+.reasonsItem span{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 120%;
+}
+
+/* TABLET AND LOWER STYLES */
+@media only screen and (max-width: 990px){
+    .reasonsWrapper{
+        gap: 6vw;
+    }
+    
+    .reasonsItem{
+        width: 20%;
+        padding: 2%;
+    }
+    
+    .reasonsItem svg{
+        width: 6.5vw;
+        height:  6.5vw;
+    }
+    
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+ 
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .reasonsWrapper{
+        gap: 4vw;
+    }
+    
+    .reasonsItem{
+        width: 24%;
+        padding: 3%;
+    }
+    
+    .reasonsItem svg{
+        width: 10vw;
+        height:  10vw;
+    }
+    
+    .reasonsItem span{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}

@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "About Page",
-    description: ""
+	  title: "About",
+	  description: "About"
 }
 
 export default function AboutPage(){
-    return(
-        <>
-        
-        </>
-    )
+	 return(
+	 	 <>
+
+	 	 </>
+	 )
 }

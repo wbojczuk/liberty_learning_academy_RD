@@ -1,0 +1,56 @@
+.header{
+    position: relative;
+    padding: calc(var(--section-padding-top) * 2) 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--secondary-text-color);
+}
+
+.content{
+    width: 40%;
+}
+
+.journey{
+    padding: 2vw 4vw;
+    background-color: var(--primary-color);
+}
+
+.journey h1{
+    font-size: 4rem;
+    line-height: 120%;
+}
+
+.journey h3{
+    padding: 1vw 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.journey a{
+    margin: 1vw 0;
+}
+
+.times{
+    font-size: 3rem;
+}
+.times div{
+    margin: 2vw 0;
+    font-weight: 500;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+
+}
