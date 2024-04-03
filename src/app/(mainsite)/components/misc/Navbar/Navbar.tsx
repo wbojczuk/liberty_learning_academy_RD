@@ -21,7 +21,7 @@ export default function Navbar() {
 
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
-  const servicesRef: any = useRef()
+  const programsRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -38,8 +38,8 @@ export default function Navbar() {
       ref: aboutRef
     },
     {
-      triggers: ["/services"],
-      ref: servicesRef
+      triggers: ["/programs"],
+      ref: programsRef
     },
     {
       triggers: ["/", "/home"],
@@ -171,9 +171,9 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Services"
-          url="/services"
-          ref={servicesRef}
+          title="Programs"
+          url="/programs"
+          ref={programsRef}
           />
 
           

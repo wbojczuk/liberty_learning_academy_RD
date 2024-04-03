@@ -445,6 +445,7 @@
     
     .links span{
         padding-left: 0.8vw;
+        font-size: 1.6rem;
     }
     
     .content{
@@ -485,7 +486,7 @@
     }
 
     .links a.cta{
-        padding: 2vw 4vw;
+        padding: 2vw 6vw !important;
         border-radius: 999px;
         transition: filter 0.3s;
         display: inline-flex;

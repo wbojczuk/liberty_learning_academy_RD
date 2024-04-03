@@ -1,0 +1,81 @@
+.programsContent{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.programsContent h2{
+    display: inline-block;
+    position: relative;
+    font-size: 3.5rem;
+}
+
+.programsContent h2::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: calc(50% - 4px);
+     left: 102%;
+     background-color: var(--primary-color);
+     width: 8vw;
+     height: 8px;
+}
+.programsContent h2::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 102%;
+    background-color: var(--primary-color);
+    width: 8vw;
+    height: 8px;
+}
+
+.content{
+    padding: 2vw 25%;
+}
+
+.content p{
+    line-height: 150%;
+    margin: 2vw 0;
+    font-size: 1.6rem;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+.programsContent h2::after{
+    width: 12vw;
+}
+
+.programsContent h2::before{
+    width: 12vw;
+}
+
+.content{
+    padding: 3vw 15%;
+}
+
+.content p{
+    margin: 3vw 0;
+}
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .programsContent h2{
+        font-size: 2.5rem;
+    }
+    
+    .content{
+        padding: 4vw 10%;
+    }
+    
+    .content p{
+        margin: 4vw 0;
+    }
+}
