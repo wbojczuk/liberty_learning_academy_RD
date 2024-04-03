@@ -18,7 +18,7 @@ return (
         Our teachers are like friendly guides, helping children learn about numbers, letters, colors, and all sorts of exciting things. But most importantly, we encourage them to be curious, kind, and confident little explorers.
         </p>
         <p>
-        We believe in freedom to learn and grow in our Liberty Learning Academy. With our support, children can become strong, brave, and ready to make the world a better place for everyone.
+        We believe in freedom to learn and grow at Liberty Learning Academy. With our support, children can become strong, brave, and ready to make the world a better place for everyone.
         </p>
 
         <Link className='main-link' href={"/contact"}>Contact Us</Link>
