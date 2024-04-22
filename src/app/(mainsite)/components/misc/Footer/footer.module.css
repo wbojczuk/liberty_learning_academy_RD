@@ -51,6 +51,9 @@
     align-items: flex-start;
     gap: 5vw;
 }
+.contactList{
+    width: 80%;
+}
 
 .listTitle{
     font-size: 1.5rem;
@@ -81,6 +84,7 @@
 .contactItem svg{
     width: 1.2vw;
     height: 1.2vw;
+    flex: none;
 }
 
 .copyright{
@@ -174,9 +178,13 @@
         margin: 3vw 0;
         font-size: 1.6rem;
     }
+    .contactList{
+        width: 100%;
+    }
     
     .contactItem{
         gap: 1.5vw;
+        justify-content: center;
     }
     
     .contactItem svg{

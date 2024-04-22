@@ -42,7 +42,7 @@ export default function Footer() {
 
             <aside>
               <h3 className={styles.listTitle}>Contact</h3>
-              <ul className={styles.list}>
+              <ul className={`${styles.list} ${styles.contactList}`}>
 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <InlineIcon icon={"mdi:phone"} width="50px" height="50px" />
