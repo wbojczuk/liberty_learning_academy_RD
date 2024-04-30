@@ -31,7 +31,7 @@
 }
 
 .content{
-    width: 25vw;
+    width: 30vw;
 }
 
 .content h4{
@@ -59,7 +59,7 @@
 /* MEDIUM LAPTOP STYLES */
 @media only screen and (min-width: 1401px) and (max-width: 1920px){
     .content{
-        width: 30vw;
+        width: 35vw;
     }
     .img{
         width: 22vw;

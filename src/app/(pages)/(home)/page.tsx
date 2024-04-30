@@ -1,3 +1,4 @@
+import AboutUs from "@/app/(mainsite)/components/aboutpage/AboutUs/AboutUs";
 import Empowering from "@/app/(mainsite)/components/homepage/Empowering/Empowering";
 import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import LikeHome from "@/app/(mainsite)/components/homepage/LikeHome/LikeHome";
@@ -12,9 +13,10 @@ export default function Home() {
       <Header />
       <LikeHome />
       <Empowering />
-      <OurVision />
+      {/* <OurVision /> */}
+      <AboutUs />
       <Reasons />
-      <OurMission />
+      {/* <OurMission /> */}
     </>
   )
 }

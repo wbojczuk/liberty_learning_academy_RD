@@ -14,11 +14,11 @@ return (
         <div className={styles.programs}>
             <div className={styles.program}>
                 <h5>Infants</h5>
-                <span>6 weeks - 12 months</span>
+                <span>0 - 11 months</span>
             </div>
             <div className={styles.program}>
                 <h5>Toddlers</h5>
-                <span>12 - 24 months</span>
+                <span>12 - 23 months</span>
             </div>
             <div className={styles.program}>
                 <h5>Twos</h5>

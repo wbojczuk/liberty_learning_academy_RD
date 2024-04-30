@@ -4,6 +4,7 @@
     align-items: center;
     gap: 8vw;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .imgWrapper{
