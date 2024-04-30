@@ -13,7 +13,10 @@ export default function AboutUs() {
         <div className={styles.content}>
             <h2><span className="underline">About Us</span></h2>
 
-            <p>At Liberty Learning Academy, our goal is to make sure every child feels loved, supported, and free to be themselves. We believe in creating a place where children can explore, learn, and grow in their own unique way. Our teachers are here to guide and encourage them every step of the way.
+            <p>In our inviting and dynamic setting, children engage in exploration, play, and learning in unison. Our priority is ensuring they experience joy, security, and affection as they embark on daily discoveries. <br /><br />
+Our educators serve as nurturing mentors, facilitating children's understanding of numbers, letters, colors, and a myriad of fascinating subjects. Yet, above all, we foster their curiosity, kindness, and self-assurance as budding adventurers.
+<br /><br />
+At Liberty Learning Academy, we champion the freedom to learn and evolve. With our guidance, children develop resilience, courage, and the determination to contribute positively to the world around them.
             </p>
             
             <Link href={"/contact"} className="main-link">Contact Us</Link>

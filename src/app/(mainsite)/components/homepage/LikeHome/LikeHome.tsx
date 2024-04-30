@@ -1,14 +1,22 @@
+"use client"
 import styles from './likehome.module.css';
+import Link from 'next/link';
 
 export default function LikeHome(){
 return (
  <div className={styles.likeHome}>
 
-    <h2>Just Like Home!</h2>
+    <div className={styles.content}>
+    <h2>Welcome to Liberty Learning Academy</h2>
 
-    <p>We provide quality care for families and their children in an environment that allows them to learn and thrive! A childcare experience in a comfortable, familiar, home-like setting. </p>
+      <p>An exceptional early learning environment that exceeds the standard childcare experience.</p>
+
+     <div className="center">
+      <Link href="/contact" className='main-link'>Schedule a Tour</Link>
+     </div>
+    </div>
  
     <img src='/img/like-home-bg.png' alt='Image of ' className='bg-img' />
-    <div style={{backgroundColor: "rgba(255, 255, 255, .9)"}} className='shader'></div>
+
  </div>
 )};

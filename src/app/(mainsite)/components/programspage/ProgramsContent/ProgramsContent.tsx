@@ -6,22 +6,46 @@ export default function ProgramsContent(){
 return (
  <div className={styles.programsContent}>
 
-    <div className="center">
+    {/* <div className="center">
         <h2>Early Learning Academy</h2>
-    </div>
+    </div> */}
 
    <div className={styles.content}>
-        <p>
-        In our cozy and fun-filled environment, children get to explore, play, and learn together. We want them to feel happy, safe, and loved while they discover new things every day.
-        </p>
-        <p>
-        Our teachers are like friendly guides, helping children learn about numbers, letters, colors, and all sorts of exciting things. But most importantly, we encourage them to be curious, kind, and confident little explorers.
-        </p>
-        <p>
-        We believe in freedom to learn and grow at Liberty Learning Academy. With our support, children can become strong, brave, and ready to make the world a better place for everyone.
-        </p>
+        <div className={styles.programs}>
+            <div className={styles.program}>
+                <h5>Infants</h5>
+                <span>6 weeks - 12 months</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Toddlers</h5>
+                <span>12 - 24 months</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Twos</h5>
+                <span>2-year olds</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Preschool</h5>
+                <span>3-year olds</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Pre-K</h5>
+                <span>4-year olds</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Before & After</h5>
+                <span>5-12 years</span>
+            </div>
+            <div className={styles.program}>
+                <h5>Summer Camp & Breaks</h5>
+                <span>5-12 years</span>
+            </div>
+        </div>
 
-        <Link className='main-link' href={"/contact"}>Contact Us</Link>
+        <div className={`center ${styles.buttonWrapper}`}>
+            <Link className='main-link' href={"/contact"}>Contact Us</Link>
+        </div>
+        
    </div>
  
     <img src='/img/programs-bg.png' alt='Image of teacher with kids' className='bg-img' />
