@@ -59,6 +59,11 @@ export default function Footer() {
                   <a href="https://maps.app.goo.gl/awybAZpjwNDrCFDDA" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
                 </aside>
 
+                <aside className={`${styles.contactItem} ${styles.listItem}`}>
+                <InlineIcon icon={"material-symbols:map"} width="50px" height="50px" />
+                  <a href="https://maps.app.goo.gl/awybAZpjwNDrCFDDA" target="_blank">We are located at the intersection of Westmoreland Road</a>
+                </aside>
+
               </ul>
             </aside>
           </div>
