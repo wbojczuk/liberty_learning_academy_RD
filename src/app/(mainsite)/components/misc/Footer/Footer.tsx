@@ -56,7 +56,7 @@ export default function Footer() {
                 
                 <aside className={`${styles.contactItem} ${styles.listItem}`}>
                 <InlineIcon icon={"mdi:map-marker"} width="50px" height="50px" />
-                  <a href="https://google.com" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
+                  <a href="https://maps.app.goo.gl/awybAZpjwNDrCFDDA" target="_blank">{process.env.NEXT_PUBLIC_BUSINESS_CITY_STATE}</a>
                 </aside>
 
               </ul>

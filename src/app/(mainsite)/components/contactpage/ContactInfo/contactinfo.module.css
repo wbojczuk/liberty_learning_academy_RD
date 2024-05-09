@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+.loc{
+    text-align: center;
+    padding: 4vw 30% 0 30%;
+    font-size: 2.2rem;
+}
+
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
@@ -14,10 +20,18 @@
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
-
+    .loc{
+        text-align: center;
+        padding: 4vw 15% 0 15%;
+        font-size: 2.2rem;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-
+    .loc{
+        text-align: center;
+        padding: 6vw 10% 0 10%;
+        font-size: 2.2rem;
+    }
 }
