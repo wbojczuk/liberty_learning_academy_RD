@@ -20,7 +20,7 @@ return (
             <div>Monday - Friday</div>
             <div>6:00AM - 6:30PM</div>
         </div>
-        <a style={{boxShadow: "0px 0px 4px rgba(255,255,255,0.5)"}} href="https://www.dfwjobs.com/child-care/parents/forms/waitlist-prequalification-form" target='_blank' className="main-link ">Child Care Assistance</a>
+        <a style={{boxShadow: "0px 0px 4px rgba(255,255,255,0.5)"}} href="https://www.dfwjobs.com/child-care/parents/forms/waitlist-prequalification-form" target='_blank' className="main-link ">Child Care Eligibility</a>
     </div>
 
     <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />

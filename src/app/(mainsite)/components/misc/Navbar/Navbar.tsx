@@ -177,7 +177,7 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Child Care Assistance"
+          title="Child Care Eligibility"
           url="https://www.dfwjobs.com/child-care/parents/forms/waitlist-prequalification-form"
 
           />
