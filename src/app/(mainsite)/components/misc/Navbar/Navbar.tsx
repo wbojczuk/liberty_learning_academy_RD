@@ -178,7 +178,7 @@ export default function Navbar() {
 
           <NavOption
           title="Child Care Eligibility"
-          url="https://www.dfwjobs.com/child-care/parents/forms/waitlist-prequalification-form"
+          url="https://childcaregroup.org/for_parents/child_care_financial_scholarships.php"
 
           />
 
