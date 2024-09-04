@@ -1,4 +1,5 @@
 import AboutUs from "@/app/(mainsite)/components/aboutpage/AboutUs/AboutUs"
+import Director from "@/app/(mainsite)/components/aboutpage/Director/Director"
 import Empowering from "@/app/(mainsite)/components/homepage/Empowering/Empowering"
 import OurMission from "@/app/(mainsite)/components/homepage/OurMission/OurMission"
 import OurVision from "@/app/(mainsite)/components/homepage/OurVision/OurVision"
@@ -15,7 +16,7 @@ export default function AboutPage(){
 	 	 <>
 			<PageTitle pageTitle="About" />
 			{/* <AboutUs /> */}
-			
+			<Director />
 			<OurMission />
 			<Empowering />
 			<OurVision />
