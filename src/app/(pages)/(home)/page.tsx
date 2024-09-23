@@ -5,12 +5,14 @@ import LikeHome from "@/app/(mainsite)/components/homepage/LikeHome/LikeHome";
 import OurMission from "@/app/(mainsite)/components/homepage/OurMission/OurMission";
 import OurVision from "@/app/(mainsite)/components/homepage/OurVision/OurVision";
 import Reasons from "@/app/(mainsite)/components/homepage/Reasons/Reasons";
+import ShoutOut from "@/app/(mainsite)/components/homepage/ShoutOut/ShoutOut";
 
 
 export default function Home() {
   return (
     <>
       <Header />
+      <ShoutOut />
       <LikeHome />
       <Empowering />
       {/* <OurVision /> */}
