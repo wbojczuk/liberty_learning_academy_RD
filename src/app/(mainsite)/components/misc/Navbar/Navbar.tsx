@@ -177,6 +177,11 @@ export default function Navbar() {
           />
 
           <NavOption
+          title="Handbook"
+          url="/liberty-learning-academy-parent-handbook.pdf"
+          />
+
+          <NavOption
           title="Child Care Eligibility"
           url="https://childcaregroup.org/for_parents/child_care_financial_scholarships.php"
 
